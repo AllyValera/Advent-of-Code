@@ -1,7 +1,6 @@
 import java.nio.file.*;
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 import java.util.Arrays;
 import java.util.Map;
 import java.util.HashMap;
@@ -32,7 +31,7 @@ public class Day1 {
 
             // Solve part 2
             int result2 = part2(leftColumn, rightColumn); 
-            System.out.println("Result: " + result2);
+            System.out.println("Result for Part 2: " + result2);
         } catch (IOException e) {
             System.err.println("Error reading input file: " + e.getMessage());
         }
