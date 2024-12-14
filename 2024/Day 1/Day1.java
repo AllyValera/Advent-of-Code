@@ -9,7 +9,7 @@ public class Day1 {
     public static void main(String[] args) {
         try {
             // Read input file
-            List<String> lines1 = Files.readAllLines(Paths.get("2024/Day 1/input1.txt"));
+            List<String> lines1 = Files.readAllLines(Paths.get("2024/Day 1/input.txt"));
 
             // Processing into 2 arrays for the 2 cols.
             int[] leftColumn = new int[lines1.size()];

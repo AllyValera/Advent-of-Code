@@ -9,7 +9,7 @@ public class Day2 {
     public static void main(String[] args) {
         try {
             // Read input file
-            List<String> reports = Files.readAllLines(Paths.get("2024/Day 2/input1.txt"));
+            List<String> reports = Files.readAllLines(Paths.get("2024/Day 2/input.txt"));
 
             // Solve part 1
             int result1 = part1(reports);
